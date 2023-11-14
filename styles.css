@@ -1,0 +1,62 @@
+body
+{
+    background-color:#04A1BF;
+    text-align: center;
+}
+
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48;
+    font-weight: bolder;
+    color: azure;
+}
+
+p
+{
+    font-family:'Times New Roman', Times, serif;
+    color:aliceblue;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.form
+{
+    margin: 20;
+}
+
+input.todo
+{
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 10;    
+}
+
+button.submit
+{
+    width: 5%;
+    height: 30px;
+}
+
+ul
+{
+    width: 60%;
+    list-style-type: circle;
+    display: inline-block;
+    text-align: left;
+    border: 2px thick beige;
+}
+
+li
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue;
+    margin: 5px;
+}
+
+li:hover
+{
+    cursor:pointer;
+    font-size: 1.3em;
+}
