@@ -5,8 +5,7 @@ function addToDo()
 {
     const input = document.querySelector('#enter');
     
-    const ul = document.querySelector('ul');
-    ul.innerHTML += `<li>${input.value}</li> <hr>`;
+    ul.innerHTML += `<li>${input.value}</li>`;
 
     const lis = document.querySelectorAll('li');
     const li = lis[lis.length-1];
@@ -38,7 +37,6 @@ function del(obj)
 {
     const lis = document.querySelectorAll('li');
 
-    const ul = document.querySelector('ul');
     ul.innerHTML = "";
     
     lis.forEach(li => {
