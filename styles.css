@@ -9,7 +9,7 @@ body
 h1
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 48px;
+    font-size: 68px;
     font-weight: bolder;
     color: azure;
     margin-top: 20px;
@@ -17,9 +17,12 @@ h1
 
 p
 {
-    color:aliceblue;
     font-weight: bolder;
     margin: 10px;
+    text-shadow: 0 0 2px #000,
+                0 0 2px #000,
+                0 0 2px #000,
+                0 0 2px #000;
 }
 
 .form
@@ -30,22 +33,29 @@ p
 input.todo
 {
     width: 70%;
-    height: 30px;
+    height: 32px;
     margin: 10px auto;
     border-radius: 10px;
     padding: 5px;
-    border: 1px solid #CCCCCC;   
+    border: 1px solid #CCCCCC;  
 }
 
 button.submit
 {
-    width: 10%;
-    height: 35px;
+    width: 5%;
+    height: 40px;
     border: none;
     background-color: #0082A6;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    margin-left: 10px;
+    transition: all ease-in-out 300ms;
+}
+
+button.submit:hover
+{
+    background-color: #006986;
 }
 
 ul
@@ -54,9 +64,7 @@ ul
     list-style-type: circle;
     display: inline-block;
     text-align: left;
-    border: 2px solid beige;
     padding: 10px;
-    border-radius: 10px;
 }
 
 li
@@ -65,7 +73,6 @@ li
     color:aliceblue;
     margin: 10px;
     padding: 5px;
-    border-bottom: 1px solid #CCCCCC;
 }
 
 li:last-child
@@ -78,4 +85,10 @@ li:hover
     cursor:pointer;
     font-size: 1.2em;
     color: #0082A6
+}
+
+hr
+{
+    height: 1px;
+    border: 1px solid #CCCCCC
 }

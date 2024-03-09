@@ -6,7 +6,7 @@ function addToDo()
     const input = document.querySelector('#enter');
     
     const ul = document.querySelector('ul');
-    ul.innerHTML += `<li>${input.value}</li>`;
+    ul.innerHTML += `<li>${input.value}</li> <hr>`;
 
     const lis = document.querySelectorAll('li');
     const li = lis[lis.length-1];

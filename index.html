@@ -10,13 +10,14 @@
     
     
     <h1>To Do List</h1>
-    <p style="color:gold;">Click the item to mark it as complete</p>
-    <p style="color: crimson;">Right click to remove the item</p>
+    <p style="color: tomato;">Click the Add button to add a task after entering</p>
+    <p style="color: gold;">Click the task to mark it as complete</p>
+    <p style="color: aquamarine;">Right click to remove a task</p>
 
     <div class="form">    
-        <form onsubmit="return addToDo()">
-            <input placeholder="Enter todo..." class="todo" type="text" id="enter">
-            <button class="submit" type="submit">Add</button> 
+        <form class="flex" onsubmit="addToDo()">
+            <input placeholder="Enter todo here..." class="todo" type="text" id="enter" required>
+            <button class="submit" type="button">Add</button> 
         </form>
     </div>
 
